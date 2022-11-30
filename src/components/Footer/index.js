@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
+import Bio from "../Bio";
 
 export default function Footer () {
     return (
@@ -8,7 +9,7 @@ export default function Footer () {
             <Card border="dark" style={{ width: '100%' }}>
                 <Card.Body>
                     <Card.Text>
-                        Develop by Tonnytg
+                        <Bio/>
                     </Card.Text>
                 </Card.Body>
             </Card>
